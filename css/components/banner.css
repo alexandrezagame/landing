@@ -1,0 +1,39 @@
+
+.banner {
+  background-image: url("/landing/images/banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Istok Web', ;
+  transition: 500ms color ease-in;
+}
+
+.banner h1:hover {
+  color: #632A50;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 30px;
+  font-family: 'Istok Web', ;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #C41E3D;
+  padding: 16px 36px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #7D1128;
+}
